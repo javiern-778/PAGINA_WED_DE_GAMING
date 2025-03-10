@@ -1,28 +1,437 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explora los videojuegos más populares, compra tus títulos favoritos y mantente al tanto de las últimas novedades en el mundo de los videojuegos. ¡Disfruta de juegos como Fortnite, Apex Legends, Call of Duty, entre otros!">
+        <title>Videojuegos</title>
+      </head>
+      
+</head>
+<!-- cuerpo del archivo index -->
+<body>
+
+  <!-- Inicio de la barra de navegación -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-size: 3rem;">GAMES</a>
+      
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <!-- Inicio de los elementos del menú -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="font-size: 2rem;">INICIO</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="font-size: 1.75rem;">
+              Nuevo y destacable
+            </a>
+<<<<<<< HEAD
+            
+=======
+>>>>>>> 0ad676f601a4f2e719e6e3363cbf8ffae7d745f3
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Lo más vendido</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Lo más jugado</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Novedades</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Próximos lanzamientos</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Noticias y actualizaciones</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Proximos eventos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="font-size: 1.75rem;">
+              Categorías
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Acción</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Arcade</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Aventura</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Estrategía</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Rol</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 1.5rem;">Simulación</a></li>
+            </ul>
+          </li>
+          <!-- Fin de los elementos del menú -->
+        </ul>
+        <!-- Inicio del buscador -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"
+            style="font-size: 1.1rem;">
+          <button class="btn btn-outline-light" type="submit" style="font-size: 1.1rem;">Buscar</button>
+        </form>
+        <!-- Fin del buscador -->
+      </div>
+    </div>
+  </nav>
+  <!-- Fin de la barra de navegación -->
+
+
+<!-- inicio de estilos de la descripción -->
+<style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1a1a2e; /* Fondo oscuro */
+      color: #e94560; /* Texto principal en color rosa */
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #e94560; /* Título en rosa */
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #f0f0f0; /* Texto más claro para mejorar contraste */
+      line-height: 1.6;
+      margin-top: 10px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card {
+      background-color: #3a486e; /* Azul oscuro para la tarjeta */
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      margin-top: 50px;
+      color: #fff; /* Texto blanco dentro de la tarjeta */
+    }
+
+    .btn-custom {
+      background-color: #0f3460; /* Azul para botones */
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-custom:hover {
+      background-color: #e94560; /* Hover en rosa brillante */
+    }
+  </style>
 </head>
 <body>
-    <CENTER><h1>VIDEOJUEGOS</h1></CENTER>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card mt 4">
-                    <div class="card-header">
-                        <h6>lo mas popular</h6>
-                    </div>
-                    <div class="card-body">
-                        
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+   
+      <h1>Bienvenido a nuestra página de Videojuegos</h1>
+      <p>
+        "Descubre los videojuegos más populares, adquiere tus títulos preferidos
+        y mantente actualizado con las últimas novedades del mundo gamer.
+        ¡Sumérgete en juegos como Fortnite, Apex Legends, Call of Duty y muchos
+        más!"
+      </p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </div>
 </body>
-</html>
+
+<!-- fin de estilos de la descripción -->
+
+
+  <!-- Inicio del row principal -->
+  <div class="row">
+    <!-- Inicio del col-md-6 para los juegos mas populares -->
+    <div class="col-md-6">
+      <div class="card mt">
+        <div style="background-color: #E94560;" class="card-header">
+          <h1 style="color: beige; font-size: 40px; font-family: 'Open Sans', sans-serif;">Videojuegos más populares
+          </h1>
+        </div>
+        <div class="card-body">
+          <!-- inicio de carrusel de reproduccion automatico -->
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/fortnite.jpg" class="d-block w-100" alt="Videojuego 1">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/Apex.jpg" class="d-block w-100" alt="Videojuego 2">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/pubg.jpg" class="d-block w-100" alt="Videojuego 3">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/Gears.jpg" class="d-block w-100" alt="Videojuego 4">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/COD.jpg" class="d-block w-100" alt="Videojuego 5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- fin del carrusel de reproduccion automatico -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Inicio de la tabla principal -->
+      <br>
+      <div class="col-md-12">
+        <div class="card mt">
+          <div style="background-color:#E94560;" class="card-header">
+            <h2 style="color: beige; font-size: 35px; font-family: 'Open Sans', sans-serif; text-align: center;">
+              Lista de compras</h2>
+          </div>
+          <div class="card-body">
+            <table class="table table-striped table-bordered" style="font-size: 1.2rem;">
+              <thead class="table-dark">
+                <tr>
+                  <th class="text-center">Imagen</th>
+                  <th class="text-center">Producto</th>
+                  <th class="text-center">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center"><img src="imagenes/COD.jpg" alt="COD" style="width: 350px; height: auto;">
+                  </td>
+                  <td>Call of Duty Modern Warfare III</td>
+                  <td>MXN$1,399</td>
+                </tr>
+                <tr>
+                  <td class="text-center"><img src="imagenes/Gears.jpg" alt="Gears" style="width: 350px; height: auto;">
+                  </td>
+                  <td>Gears</td>
+                  <td>MXN$499</td>
+                </tr>
+                <tr>
+                  <td class="text-center"><img src="imagenes/Fortnite.jpg" alt="Fortnite"
+                      style="width: 350px; height: auto;"></td>
+                  <td>Fortnite</td>
+                  <td>Gratis</td>
+                </tr>
+                <tr>
+                  <td class="text-center"><img src="imagenes/Apex.jpg" alt="Apex" style="width: 350px; height: auto;">
+                  </td>
+                  <td>Apex Legends</td>
+                  <td>Gratis</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Fin del col-md-6 para los juegos mas populares -->
+
+
+
+    <!-- Inicio del col-md-6 para la lista de Videojuegos-->
+    <div class="col-md-6">
+      <div class="card mt">
+        <div style="background-color:#E94560;" class="card-header">
+          <h2 style="color: beige; font-size: 40px; font-family: 'Open Sans', sans-serif;">Lista de videojuegos</h2>
+        </div>
+        <!-- Inicio del cuerpo del card -->
+        <div class="card-body">
+          <!-- Inicio del primer row dentro de Body -->
+          <div class="row">
+            <!-- Incio del primer col-md-6 dentro de Body -->
+            <div class="col-md-6">
+              <div class="card mt-4">
+                <img src="imagenes/pubg.jpg" class="card-img-top"
+                  style=" object-fit: cover; width: 100%;height: 350px; " alt="PUBG">
+                <div class="card-body">
+                  <h5 class="card-title">PUBG</h5>
+                  <p class="card-text">Acción, Disparos</p>
+                  <p class="small text-muted">4.0 ★ | 40 GB | Gratis</p>
+                  <button class="btn w-100" style="background-color: #16213E; color: white;">Obtener ahora</button>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del primer col-md-6 dentro de Body -->
+            <!-- Incio del segundo col-md-6 dentro de Body -->
+            <div class="col-md-6">
+              <div class="card mt-4">
+                <img src="imagenes/COD.jpg" class="card-img-top" style=" object-fit: cover; width: 100%;height: 350px; "
+                  alt="PUBG">
+                <div class="card-body">
+                  <h5 class="card-title">CALL OF DUTY MODERN WARFARE III</h5>
+                  <p class="card-text">Juego de disparos de acción</p>
+                  <p class="small text-muted">4.4 ★ | 234.9 GB | MXN$1,399</p>
+                  <button class="btn w-100" style="background-color: #16213E; color: white;">Comprar ahora</button>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del segundo col-md-6 dentro de Body -->
+          </div>
+          <!-- Fin del primer row dentro de Body-->
+          <!-- Inicion del segundo row dentro de Body -->
+          <div class="row">
+            <!-- Incio del tercer col-md-6 dentro de Body -->
+            <div class="col-md-6">
+              <div class="card mt-4">
+                <img src="imagenes/fortnite.jpg" class="card-img-top"
+                  style=" object-fit: cover; width: 100%;height: 350px; " alt="PUBG">
+                <div class="card-body">
+                  <h5 class="card-title">Fornite</h5>
+                  <p class="card-text">Acción, Disparos</p>
+                  <p class="small text-muted">4.7 ★ | 99 GB | Gratis</p>
+                  <button class="btn w-100" style="background-color: #16213E; color: white;">Obtener ahora</button>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del tercer col-md-6 dentro de Body -->
+            <!-- Incio del cuarto col-md-6 dentro de Body -->
+            <div class="col-md-6">
+              <div class="card mt-4">
+                <img src="imagenes/Apex.jpg" class="card-img-top"
+                  style=" object-fit: cover; width: 100%;height: 350px; " alt="PUBG">
+                <div class="card-body">
+                  <h5 class="card-title">Apex Legends</h5>
+                  <p class="card-text">Acción</p>
+                  <p class="small text-muted">4.2 ★ | 75 GB | Gratis</p>
+                  <button class="btn w-100" style="background-color: #16213E; color: white;">Obtener ahora</button>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del cuarto col-md-6 dentro de Body -->
+          </div>
+          <!-- Fin del segundo row -->
+          <!-- Inicion del tercer row -->
+          <div class="row">
+            <!-- Inicio del quinto col-md-6 dentro de Body -->
+            <div class="col-md-6">
+              <div class="card mt-4">
+                <img src="imagenes/Deltaforce.jpg" class="card-img-top"
+                  style=" object-fit: cover; width: 100%;height: 350px; " alt="PUBG">
+                <div class="card-body">
+                  <h5 class="card-title">Delta Force</h5>
+                  <p class="card-text">Aventura, multijugador masivo</p>
+                  <p class="small text-muted">3.9 ★ | 88 GB | Gratis</p>
+                  <button class="btn w-100" style="background-color: #16213E; color: white;">Obtener ahora</button>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del quinto col-md-6 dentro de Body -->
+            <!-- Inicio del sexto col-md-6 dentro de Body -->
+            <div class="col-md-6">
+              <div class="card mt-4">
+                <img src="imagenes/Gears.jpg" class="card-img-top"
+                  style=" object-fit: cover; width: 100%;height: 350px; " alt="PUBG">
+                <div class="card-body">
+                  <h5 class="card-title">Gears </h5>
+                  <p class="card-text">Disparos</p>
+                  <p class="small text-muted">4.5 ★ | 88 GB | MXN$499 </p>
+                  <button class="btn w-100" style="background-color: #16213E; color: white;">Comprar ahora</button>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del sexto col-md-6 dentro de Body -->
+          </div>
+          <!-- Fin del tercer row -->
+        </div>
+      </div>
+    </div>
+    <!-- Fin del col-md-6 par la Lista de Videojuegos -->
+  </div>
+  <!-- Fin del row principal -->
+
+<<<<<<< HEAD
+=======
+ <!-- Inicio del pie de página -->
+ <footer class="bg-dark text-white mt-5">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-12 text-center"> <!-- Centrar el contenido -->
+        <h4>DESCARGA LA APLICACIÓN</h4>
+        <h5><p>GAMES</p></h5>
+
+        <!-- Iconos de redes sociales -->
+        <div class="mt-3">
+          <a href="#" class="text-white mx-3"><i class="bi bi-twitter" style="font-size: 1.5rem;"></i></a>
+          <a href="#" class="text-white mx-3"><i class="bi bi-youtube" style="font-size: 1.5rem;"></i></a>
+          <a href="#" class="text-white mx-3"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a>
+          <a href="#" class="text-white mx-3"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a>
+        </div>
+
+        <p class="mt-3">© 2020-2025 GAMES, Inc. Compara, compra y disfruta de los videojuegos más populares. Todos los derechos reservados.</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-12 text-center"> <!-- Centrar el contenido -->
+        <h5>ENLACES</h5>
+        <ul class="list-unstyled d-inline"> <!-- Mostrar en línea -->
+          <li class="d-inline mx-3"><a href="#" class="text-white">AVISO DE PRIVACIDAD</a></li>
+          <li class="d-inline mx-3"><a href="#" class="text-white">TÉRMINOS DE SERVICIO</a></li>
+          <li class="d-inline mx-3"><a href="#" class="text-white">PREFERENCIAS DE COOKIES</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-12 text-center"> <!-- Centrar el contenido -->
+        <p> Sangre | Lenguaje | Violencia | Interacción de usuarios | Compras dentro del juego</p>
+      </div>
+    </div>
+
+    <!-- Sección de Contactos en fila -->
+    <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <h5>CONTACTO</h5>
+        <div class="row justify-content-center"> <!-- Fila para los contactos -->
+          <div class="col-md-4"> <!-- Columna para el primer contacto -->
+            <ul class="list-unstyled">
+              <li><i class="bi bi-envelope"></i> <a href="mailto:info@tusitio.com" class="text-white">Fernando08castellanos@gmail.com</a></li>
+              <li><i class="bi bi-envelope"></i> <a href="mailto:info@tusitio.com" class="text-white">Valeria12alcantara@emailfalso.com</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4"> <!-- Columna para el segundo contacto -->
+            <ul class="list-unstyled">
+              <li><i class="bi bi-telephone"></i> <a href="tel:+1234567890" class="text-white">+123 456 7890</a></li>
+              <li><i class="bi bi-telephone"></i> <a href="tel:+1234567890" class="text-white">+52 55 9876 2103</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4"> <!-- Columna para el tercer contacto -->
+            <ul class="list-unstyled">
+              <li><i class="bi bi-geo-alt"></i> Dirección: Calle Siempre Viva #742, CDMX, México</li>
+              <li><i class="bi bi-geo-alt"></i> Avenida Magnolia #275, Colonia Altos del Bosque, CDMX, México</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Fin del pie de página -->
+
+
+>>>>>>> 0ad676f601a4f2e719e6e3363cbf8ffae7d745f3
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+<!-- fin del cuerpo del archico index -->
+
+</html> 

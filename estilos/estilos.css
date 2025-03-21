@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e; /* Fondo oscuro */
+    color: #e94560; /* Texto principal en color rosa */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #e94560; /* Título en rosa */
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: #f0f0f0; /* Texto más claro para mejorar contraste */
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    background-color: #3a486e; /* Azul oscuro para la tarjeta */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-top: 50px;
+    color: #fff; /* Texto blanco dentro de la tarjeta */
+  }
+
+  .btn-custom {
+    background-color: #0f3460; /* Azul para botones */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-custom:hover {
+    background-color: #e94560; /* Hover en rosa brillante */
+  }
+
+  th, td{
+    border: 3px solid rgb(65, 64, 145);
+    padding: 1px;
+    text-align: left;
+    border-radius: 5%;
+
+}
+th{
+    background-color: #1A1A2E;
+
+}
